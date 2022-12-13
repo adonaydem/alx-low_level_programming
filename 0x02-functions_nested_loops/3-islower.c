@@ -2,8 +2,8 @@
 
 /**
  * _islower - Check description
- * @test - Input 
- * Return: 1 or 0
+ * @test - An input character
+ * Return: 0 or 1
  */
 int _islower(char test)
 {
