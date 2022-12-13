@@ -3,6 +3,7 @@
 /**
  * _islower - Check description
  * @test - An input character
+ * Description: function uses _putchar function to print
  * Return: 0 or 1
  */
 int _islower(char test)
