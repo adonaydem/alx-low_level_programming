@@ -8,5 +8,5 @@
 int main(void)
 {
 	_putchar("\_putchar");
-	retutn(0);
+	return(0);
 }
