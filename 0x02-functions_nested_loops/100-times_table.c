@@ -9,13 +9,11 @@
  */
 void print_times_table(int n)
 {
-	int i;
-	int g;
-
-	if (n < 0 || n > 15)
-
-	else
+	if (n > 0 && n < 15)
 	{
+		int i;
+		int g;
+
 		for (i = 0; i <= n; i++)
 		{
 			for (g = 0; g <= n; g++)
