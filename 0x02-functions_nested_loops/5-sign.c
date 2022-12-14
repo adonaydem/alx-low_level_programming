@@ -9,11 +9,16 @@
  */
 int print_sign(int c)
 {
+	int val;
+
 	if (c > 0)
 		_putchar('+');
+		val = 1;
 	else if (c == 0)
 		_putchar('0');
+		val = 0;
 	else
 		_putchar('-');
-	return (0);
+		val = -1;
+	return (val);
 }
