@@ -26,6 +26,6 @@ int main(void)
 			sum += fiv;
 		}
 	}
-	printf(sum);
+	printf("%d\n", sum);
 	return (0);
 }
