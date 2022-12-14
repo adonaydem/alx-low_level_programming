@@ -18,6 +18,17 @@ void print_times_table(int n)
 		{
 			for (g = 0; g <= n; g++)
 			{
+				if (((i * g) / 100) == 0)
+				{
+					if (g != 0)
+					{
+						_putchar(' ');
+					}
+				}
+				else
+				{
+					_putchar(((i * g) / 100) + '0');
+				}
 				if (((i * g) / 10) == 0)
 				{
 					if (g != 0)
