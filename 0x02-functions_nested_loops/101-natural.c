@@ -26,4 +26,5 @@ int main(void)
 			sum += fiv;
 		}
 	}
+	return (0);
 }
