@@ -17,9 +17,13 @@ void times_table(void)
 		{
 			if ((i * g) >= 10)
 				_putchar(' ');
-			_putchar((i * g) + '0');
-			_putchar(',');
-			_putchar(' ');
+			_putchar(((i * g) / 10) + '0');
+			_putchar(((i * g) % 10) + '0');
+			if (g != 9)
+			{
+				_putchar(',');
+				_putchar(' ');
+			}
 		}
 		_putchar('\n');
 	}
