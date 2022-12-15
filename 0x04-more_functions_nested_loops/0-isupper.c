@@ -4,19 +4,20 @@
  * _isupper - Check description
  * @c: Input number
  * Description - the function returns 1 if input is uppercase
- * Return: 1 0r 0
+ * Return: 1 or 0
  */
 int _isupper(int c)
 {
 	char i;
+	int val;
 
+	val = 0;
 	for (i = 'A'; i <= 'Z'; i++)
 	{
 		if (i == c)
 		{
-			return (1);
+			val = 1;
 		}
-		else
-			return (0);
 	}
+	return (val);
 }
