@@ -2,12 +2,12 @@
 
 /**
  * print_triangle - Check description
- *
+ * @size: variable
  * Return: Nothing
  */
 void print_triangle(int size)
 {
-	int i, j , k;
+	int i, j, k;
 	int cow;
 
 	if (size > 0)
