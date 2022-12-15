@@ -2,6 +2,6 @@
 
 int main(void)
 {
-	print_square(7);
+	print_triangle(7);
 	return (0);
 }
