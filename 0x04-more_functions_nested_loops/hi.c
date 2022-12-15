@@ -2,6 +2,6 @@
 
 int main(void)
 {
-	more_numbers();
+	print_line(7);
 	return (0);
 }
