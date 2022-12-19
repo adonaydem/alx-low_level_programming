@@ -6,7 +6,7 @@
  * @n: number
  * Return: Returns the the length of string
  */
-void print_array(int *a, int n);
+void print_array(int *a, int n)
 {
 	int count;
 
@@ -15,7 +15,8 @@ void print_array(int *a, int n);
 	{
 		_putchar(a[count]);
 		if (count != n)
-			_putchar(', ');
+			_putchar(',');
+			_putchar(' ');
 	}
 	_putchar('\n');
 }
