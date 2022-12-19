@@ -1,13 +1,14 @@
 #include "main.h"
 
 /**
- * print_rev - Check description
+ * rev_string - Check description
  * @s: String
  * Return: Returns the the length of string
  */
-void print_rev(char *s)
+void rev_string(char *s)
 {
 	int i = 0;
+	int c = 0;
 
 	while (s[i] != '\0')
 	{
@@ -15,7 +16,7 @@ void print_rev(char *s)
 	}
 	while (i)
 	{
-		_putchar(s[--i]);
+		s[c] = s[--i];
+		c++;
 	}
-	_putchar('\n');
 }
