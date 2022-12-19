@@ -14,12 +14,10 @@ void puts2(char *str)
 	{
 		i++;
 	}
-	for (count = 0; count <= i;count++)
+	count -= 1;
+	for (count = 0; count <= i; count += 2)
 	{
-		if (count % 2 == 0)
-		{
 			_putchar(str[count]);
-		}
 	}
 	_putchar('\n');
 }
