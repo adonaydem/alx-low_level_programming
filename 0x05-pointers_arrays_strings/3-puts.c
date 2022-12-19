@@ -2,7 +2,7 @@
 
 /**
  * _puts - Check description
- * @trs: String
+ * @str: String
  * Return: Returns the the length of string
  */
 void _puts(char *str)
