@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * puts2 - Check description
- * @str: String
+ * print_array - Check description
+ * @a: String
  * @n: number
  * Return: Returns the the length of string
  */
