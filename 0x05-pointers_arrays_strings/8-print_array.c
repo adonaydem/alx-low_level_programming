@@ -15,8 +15,10 @@ void print_array(int *a, int n)
 	{
 		_putchar(a[count]);
 		if (count != n)
+		{
 			_putchar(',');
 			_putchar(' ');
+		}
 	}
 	_putchar('\n');
 }
