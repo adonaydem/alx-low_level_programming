@@ -1,21 +1,26 @@
 #include "main.h"
 
 /**
- * puts2 - Check description
+ * puts_half - Check description
  * @str: String
  * Return: Returns the the length of string
  */
-void puts2(char *str)
+void puts_half(char *str)
 {
 	int i = 0;
 	int count;
+	int mid;
 
 	while (str[i] != '\0')
 	{
 		i++;
 	}
 	i -= 1;
-	for (count = 0; count <= i; count += 2)
+	if (i % 2 == 0)
+		mid = (i / 2) + 1;
+	else
+		mid = ((i - 1) / 2) + 2;
+	for (count = mid; count <= i; count++)
 	{
 		_putchar(str[count]);
 	}
