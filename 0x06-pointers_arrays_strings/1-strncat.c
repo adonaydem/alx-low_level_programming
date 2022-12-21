@@ -24,4 +24,5 @@ char *_strncat(char *dest, char *src, int n)
 		g++;
 	}
 	dest[i] = src[g];
+	return (dest);
 }
