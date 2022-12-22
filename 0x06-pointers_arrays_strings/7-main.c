@@ -2,6 +2,6 @@
 
 int main(void)
 {
-	int p = cap_string("lool");
+	leet("lool");
 	return (0);
 }
