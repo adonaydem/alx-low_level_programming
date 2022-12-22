@@ -9,19 +9,12 @@
 void reverse_array(int *a, int n)
 {
 	int i = 0;
-	int h = 0;
-	int tmp[90];
+	int h;
 
-	while (n >= 0)
+	while (i < n--)
 	{
-		tmp[i] = a[n-1];
-		i++;
-		n--;
-	}
-	while (i >= 0)
-	{
-		a[h] = tmp[h];
-		h++;
-		i--;
+		h = a[i];
+		a[i++] = a[n];
+		a[n] = h;
 	}
 }
