@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * string_toupper - Check
+ * cap_string - Check
  * @str: lop
  * Return: Uppercase
  */
-char *string_toupper(char *str)
+char *cap_string(char *str)
 {
 	int i;
 
@@ -15,9 +15,9 @@ char *string_toupper(char *str)
 		{
 			str[i] = str[i] - 32;
 		}
-		if (check_seperators(s[i]) && (s[i + 1] >= 'a' && s[i + 1] <= 'z'))
+		if (check_seperators(str[i]) && (str[i + 1] >= 'a' && str[i + 1] <= 'z'))
 		{
-			s[i + 1] -= 32;
+			str[i + 1] -= 32;
 	}
 	return (str);
 }
@@ -31,6 +31,7 @@ char *string_toupper(char *str)
 int check_seperators(char c)
 {
 	int i = 0;
+
 	char seperators[13] = { ' ', '\t', '\n', ',', ';', '.', '!', '?', '"'
 		, '(', ')', '{', '}' };
 	for (; i < 13; i++)
